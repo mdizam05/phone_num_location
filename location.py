@@ -69,7 +69,6 @@ if st.button("Find Location"):
             st.error(result)
     else:
         st.warning("Please enter a phone number")
-
 # Add footer
 st.markdown("---")
 st.write("This app uses the phonenumbers library to identify the location of phone numbers.")
